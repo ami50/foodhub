@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="FoodHub"
+        android:textColor="#3d33a8"
+        android:textSize="60dp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="439dp"
+        app:srcCompat="@drawable/burger" />
+    <Button
+        android:onClick="get_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Get Started"
+        android:textColor="#3d33a8"
+        android:textSize="30sp"
+        android:textStyle="bold"></Button>
+        </Linear Layout>
+      
